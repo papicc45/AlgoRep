@@ -23,9 +23,19 @@ import java.util.StringTokenizer;
 
 
 public class Main {
+	static int x, y;
+	static int[] dx = {0, 0, -1, 1};
+	static int[] dy = {1, -1, 0, 0};
+	
+	static int[][] map;
+	static boolean[][] visited;
+	
+	static ArrayList<int[]> iceList = new ArrayList<>();
+	
 	public static void main(String[] args) throws IOException {
 //		Scanner sc = new Scanner(System.in);
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		
 	}
 }
 
